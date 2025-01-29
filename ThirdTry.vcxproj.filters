@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Wahoo.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Weather2.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sound.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Pepperridge.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Ai_vist_lo_lop.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="foghorn.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="foghorn.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="no.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="yes.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sponge.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="steve.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="womp.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="leg.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="rawr.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Weather.ogg">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="test.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="test2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="error.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sao_Tome_and_Principe.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Rush.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Halloween.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hasani.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Cross_Over.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Parade.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Osmar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Ninja_Check.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Mary.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Connor.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="country_names.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="event_names.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="arial.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
