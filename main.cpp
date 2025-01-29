@@ -494,7 +494,7 @@ int main()
             if (possible_sound == 3)
             {
 
-                for (int x = 0; x <= 500; x++)
+                for (int x = 0; x <= 500; x++) //3
                 {
 
                    std::cout << "aosdifaowenoe[eiwnoeommasdf[oaweinwl3mkw[ofdijasdo[fnae[o"; 
