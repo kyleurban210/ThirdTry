@@ -421,7 +421,7 @@ int main()
 
        
 
-        
+        std::cout << "Turn up your volume!!! \n"; 
         
 
         if (repuesta == correctanswerholder)
@@ -515,6 +515,9 @@ int main()
                 // Wait until sound finishes playing
                 while (sound.getStatus() == sf::Sound::Playing)
                     sf::sleep(sf::milliseconds(20));
+
+
+                std::abort(); 
 
             }
             else if (possible_sound == 2)
@@ -616,7 +619,16 @@ int main()
             while (sound.getStatus() == sf::Sound::Playing) 
                 sf::sleep(sf::milliseconds(120));
 
+            if (!buffer.loadFromFile("roblox.wav"))
+                return -1;
 
+            sound.play(); 
+
+            while (sound.getStatus() == sf::Sound::Playing)
+                sf::sleep(sf::milliseconds(300));
+
+
+            std::abort(); 
 
 
             exit(0); 

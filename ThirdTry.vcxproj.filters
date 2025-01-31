@@ -62,6 +62,9 @@
     <Media Include="rawr.wav">
       <Filter>Resource Files</Filter>
     </Media>
+    <Media Include="roblox.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
   </ItemGroup>
   <ItemGroup>
     <None Include="Weather.ogg">
